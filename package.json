@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build:live",
     "build": "tsc -p .",
-    "lint": "next lint",
+    "lint": "eslint './src/**' --ext .ts",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
     "type-check": "tsc --pretty --noEmit",
