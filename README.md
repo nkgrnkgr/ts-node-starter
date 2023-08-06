@@ -2,12 +2,11 @@
 
 ### using
 
-- node.js
-- typescript
+- ts-node
 - eslint
 - prettier
-- build-live
 - vitest
+- husky & lint-staged
 
 ### execute index.ts
 
